@@ -20,7 +20,7 @@ namespace PostgreSQL.Test.ORM
         public DbSet<CadastroModel> Cadastro { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=20.121.53.209;Port=5432;Database=postgres_db;Username=edupostgresuser;Password=cK5#aM9@");
+            optionsBuilder.UseNpgsql("Host=20.57.129.124;Port=5432;Database=postgres_db;Username=edupostgresuser;Password=cK5#aM9@");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

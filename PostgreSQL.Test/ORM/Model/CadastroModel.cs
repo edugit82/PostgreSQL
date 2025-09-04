@@ -12,7 +12,7 @@ namespace PostgreSQL.Test.ORM.Model
         {
             this.Nome = string.Empty;
             this.Email = string.Empty;
-            this.DataCadastro = DateTime.Now;
+            this.DataCadastro = DateTime.UtcNow;
         }
 
         public int Id { get; set; }
